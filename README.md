@@ -22,3 +22,34 @@ All this data goes into a data warehouse like **Snowflake / Redshift / BigQuery*
 <img width="200" height="200" alt="Image" src="https://github.com/user-attachments/assets/dad2abb8-3ee9-4570-a3cd-a93b91c1bbf4" />
 
 ## What is ETL 
+
+ETL stands for **Extract, Transform, Load** — a data pipeline process used to move data from source systems into a data warehouse or data store.
+
+### What it means
+
+1. **Extract** → Pull data from multiple sources
+2. **Transform** → Clean, format, validate, and enrich data
+3. **Load** → Store it in the target system (e.g., data warehouse)
+
+### Example (real-world)
+
+Amazon wants to analyze sales:
+
+* **Extract** data from
+
+  * Order DB
+  * Delivery system
+  * Payment logs
+  * Customer database
+
+* **Transform**
+
+  * Remove duplicates
+  * Convert date formats
+  * Correct data errors
+  * Join customer & order data
+  * Apply business rules (e.g., completed orders only)
+
+* **Load**
+
+  * Store final cleaned data into **Redshift/Snowflake/BigQuery**
