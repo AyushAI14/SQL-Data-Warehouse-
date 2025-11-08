@@ -53,3 +53,6 @@ Amazon wants to analyze sales:
 * **Load**
 
   * Store final cleaned data into **Redshift/Snowflake/BigQuery**
+
+### Different Methods of ETL
+<img width="1000" height="1000" alt="Image" src="https://github.com/user-attachments/assets/de329fc8-b985-41aa-ae9c-a30ea007797e" />
