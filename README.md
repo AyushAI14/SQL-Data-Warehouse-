@@ -98,3 +98,55 @@ Stores **raw data** in any format (CSV, JSON, logs, images).
 **Use:** Large companies like Netflix, Uber
 
 ---
+
+
+## Four Approach for DataWareHouse
+
+<img width="443" height="405" alt="Image" src="https://github.com/user-attachments/assets/0bace3ac-1470-477d-ae25-b99a606a1cd1" />
+
+---
+
+**EDW** = central warehouse for entire company
+**Data Mart** = subset for one department
+
+### **1) Inmon (Top-Down)**
+
+* Central **enterprise data warehouse (EDW)** first (normalized data)
+* Then build **data marts** for departments
+
+**Best for:** Large enterprises with complex data governance
+**Key idea:** “Build warehouse first, marts later”
+
+---
+
+### **2) Kimball (Bottom-Up)**
+
+* Build **data marts first** (dimensional modeling)
+* Combine them into a warehouse
+
+**Best for:** Faster business reporting, BI-driven companies
+**Key idea:** “Quick wins — marts first”
+
+---
+
+### **3) Data Vault**
+
+* Load raw data first (Raw Vault)
+* Add business rules later (Business Vault)
+* Then create marts
+
+**Best for:** Complex, evolving data environments; audit-heavy orgs
+**Key idea:** **Separate raw data** and **business logic**
+
+---
+
+### **4) Medallion Architecture (Lakehouse)**
+
+* **Bronze:** Raw data
+* **Silver:** Cleaned / structured
+* **Gold:** Business-ready datasets / marts
+
+**Best for:** Modern data lake / lakehouse systems (Databricks, Spark)
+**Key idea:** Multi-layer refinement pipeline
+
+---
