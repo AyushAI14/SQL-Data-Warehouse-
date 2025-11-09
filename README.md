@@ -56,3 +56,45 @@ Amazon wants to analyze sales:
 
 ### Different Methods of ETL
 <img width="1000" height="1000" alt="Image" src="https://github.com/user-attachments/assets/de329fc8-b985-41aa-ae9c-a30ea007797e" />
+
+
+### Different type of Data Achitecture
+<img width="300" height="303" alt="Image" src="https://github.com/user-attachments/assets/19fb3199-1c4f-48d9-b67c-098de83f561a" />
+
+---
+
+### **Data Warehouse**
+
+Stores **clean, structured, historical data** for reporting and BI.
+
+**Example:** Snowflake, BigQuery, Redshift
+**Use:** Dashboards, business KPIs, analytics
+
+---
+
+### **Data Lake**
+
+Stores **raw data** in any format (CSV, JSON, logs, images).
+
+**Example:** AWS S3, Azure Data Lake, GCS
+**Use:** ML training data, large-scale storage
+
+---
+
+### **Data Lakehouse**
+
+**Blend** of Data Lake + Data Warehouse — one system for raw + structured data.
+
+**Example:** Databricks, Delta Lake
+**Use:** BI + ML workloads together
+
+---
+
+### **Data Mesh**
+
+**Decentralized approach** — each domain/team owns and serves its own data.
+
+**Example:** Architecture style (not a tool)
+**Use:** Large companies like Netflix, Uber
+
+---
