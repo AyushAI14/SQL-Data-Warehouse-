@@ -161,5 +161,6 @@ Stores **raw data** in any format (CSV, JSON, logs, images).
 
 <img width="576" height="678" alt="Image" src="https://github.com/user-attachments/assets/59a60ddb-1cd3-4af6-9e92-ccc291f5fc74" />
 
-### ** Our Project Achitecture**
+# **Project Starts**
+### **Our Project Achitecture**
 <img width="622" height="505" alt="Image" src="https://github.com/user-attachments/assets/bc03b357-131f-4635-938a-795810825aef" />
