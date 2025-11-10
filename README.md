@@ -10,7 +10,7 @@ Instead of data being scattered in different systems (CRM, sales DB, marketing t
 
 ### Example (real-world)
 
-Flipkart collects data from:
+Flipkart collects data from: 
 
 * Orders database
 * Payments system
@@ -160,3 +160,6 @@ Stores **raw data** in any format (CSV, JSON, logs, images).
 * Never Mix thing , every layer has to be isolated and doing only thier repective work
 
 <img width="576" height="678" alt="Image" src="https://github.com/user-attachments/assets/59a60ddb-1cd3-4af6-9e92-ccc291f5fc74" />
+
+### ** Our Project Achitecture**
+<img width="622" height="505" alt="Image" src="https://github.com/user-attachments/assets/bc03b357-131f-4635-938a-795810825aef" />
