@@ -1,3 +1,16 @@
+-- Procedure: bronze.load_bronze()
+-- Purpose: Load Bronze layer by truncating raw tables and bulk-copying CSV files.
+-- Actions:
+--   • Truncate each bronze table
+--   • COPY data from server-side import directory
+--   • Log load time per table + total duration (RAISE NOTICE)
+-- Files expected in: /var/lib/postgresql/imports/Datasets/
+-- Sources loaded: CRM (cust, prd, sales) + ERP (cust, loc, cat)
+-- Run with: CALL bronze.load_bronze();
+
+
+
+
 CREATE OR REPLACE PROCEDURE bronze.load_bronze ()
 LANGUAGE plpgsql
 AS $$
