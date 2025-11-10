@@ -150,3 +150,7 @@ Stores **raw data** in any format (CSV, JSON, logs, images).
 **Key idea:** Multi-layer refinement pipeline
 
 ---
+
+## **Blueprint of All 3 Layers**
+
+<img width="562" height="654" alt="Image" src="https://github.com/user-attachments/assets/0a658fdd-4efd-4cd2-9fa5-cd0f07b12dd4" />
