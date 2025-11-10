@@ -151,6 +151,6 @@ Stores **raw data** in any format (CSV, JSON, logs, images).
 
 ---
 
-## **Blueprint of All 3 Layers**
+## **Blueprint of All 3 Layers (Medallion Architecture)**
 
 <img width="562" height="654" alt="Image" src="https://github.com/user-attachments/assets/0a658fdd-4efd-4cd2-9fa5-cd0f07b12dd4" />
