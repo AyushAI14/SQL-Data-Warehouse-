@@ -1,3 +1,6 @@
+-- This query is for creating table with proper name and it will delete the table first (if exist) and create fresh again
+
+
 DROP TABLE IF EXISTS bronze.crm_cust_info; -- only for sake of not getting error if i update any datatype in table
 CREATE TABLE bronze.crm_cust_info (
 	cst_id INT PRIMARY KEY,
