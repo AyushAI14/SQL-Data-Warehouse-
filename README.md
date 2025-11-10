@@ -154,3 +154,9 @@ Stores **raw data** in any format (CSV, JSON, logs, images).
 ## **Blueprint of All 3 Layers (Medallion Architecture)**
 
 <img width="562" height="654" alt="Image" src="https://github.com/user-attachments/assets/0a658fdd-4efd-4cd2-9fa5-cd0f07b12dd4" />
+
+### **Separation Of Concern (SOC)** (Secret of top Data Engineer)
+
+* Never Mix thing , every layer has to be isolated and doing only thier repective work
+
+<img width="576" height="678" alt="Image" src="https://github.com/user-attachments/assets/59a60ddb-1cd3-4af6-9e92-ccc291f5fc74" />
