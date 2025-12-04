@@ -167,7 +167,8 @@ Stores **raw data** in any format (CSV, JSON, logs, images).
 ### **Our Project Achitecture**
 <img width="622" height="505" alt="Image" src="https://github.com/user-attachments/assets/bc03b357-131f-4635-938a-795810825aef" />
 
-
+#### **Data Flow**
+[**Data Flow Diagram**](Drawings/Data_Flow.png)
 ### **Building the Data Warehouse (Data Engineering)**
 
 ### **Objective**
@@ -179,4 +180,3 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - **Integration:** Combine both sources into a single, user-friendly data model designed for analytical queries.
 - **Scope:** Focus on the latest dataset only; historization of data is not required.
 - **Documentation:** Provide clear documentation of the data model to support both business stakeholders and analytics teams.
-
