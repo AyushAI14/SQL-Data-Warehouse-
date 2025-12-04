@@ -168,7 +168,8 @@ Stores **raw data** in any format (CSV, JSON, logs, images).
 <img width="622" height="505" alt="Image" src="https://github.com/user-attachments/assets/bc03b357-131f-4635-938a-795810825aef" />
 
 #### **Data Flow**
-[**Data Flow Diagram**](Drawings/Data_Flow.png)
+<img width="622" height="505" alt="Image" src="Drawings/Data_Flow.png" />
+
 ### **Building the Data Warehouse (Data Engineering)**
 
 ### **Objective**
