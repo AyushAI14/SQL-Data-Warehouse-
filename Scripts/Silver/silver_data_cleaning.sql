@@ -22,6 +22,7 @@ Stored Procedure: Load Silver Layer (Bronze -> Silver)
 ===============================================================================
 */
 
+
 CALL silver.load_silver();  -- for executing the procedure
 
 CREATE OR REPLACE PROCEDURE silver.load_silver ()
